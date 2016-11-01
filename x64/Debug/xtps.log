@@ -1,0 +1,110 @@
+﻿  create.cpp
+create.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+create.cpp(36): error C2059: syntax error: 'else'
+create.cpp(36): error C2143: syntax error: missing ';' before '{'
+create.cpp(36): error C2447: '{': missing function header (old-style formal list?)
+create.cpp(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+create.cpp(41): error C2440: 'initializing': cannot convert from 'Patient *' to 'int'
+  create.cpp(41): note: There is no context in which this conversion is possible
+create.cpp(43): error C3927: '->': trailing return type is not allowed after a non-function declarator
+create.cpp(43): error C3613: missing return type after '->' ('int' assumed)
+create.cpp(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+create.cpp(43): error C2146: syntax error: missing ';' before identifier 'leftBtn'
+create.cpp(44): error C3927: '->': trailing return type is not allowed after a non-function declarator
+create.cpp(44): error C3613: missing return type after '->' ('int' assumed)
+create.cpp(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+create.cpp(44): error C2086: 'int ui': redefinition
+  create.cpp(43): note: see declaration of 'ui'
+create.cpp(44): error C2146: syntax error: missing ';' before identifier 'rightBtn'
+create.cpp(45): error C3927: '->': trailing return type is not allowed after a non-function declarator
+create.cpp(45): error C3613: missing return type after '->' ('int' assumed)
+create.cpp(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+create.cpp(45): error C2086: 'int ui': redefinition
+  create.cpp(43): note: see declaration of 'ui'
+create.cpp(45): error C2146: syntax error: missing ';' before identifier 'leftDelBtn'
+create.cpp(46): error C3927: '->': trailing return type is not allowed after a non-function declarator
+create.cpp(46): error C3613: missing return type after '->' ('int' assumed)
+create.cpp(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+create.cpp(46): error C2086: 'int ui': redefinition
+  create.cpp(43): note: see declaration of 'ui'
+create.cpp(46): error C2146: syntax error: missing ';' before identifier 'rightDelBtn'
+create.cpp(47): error C3927: '->': trailing return type is not allowed after a non-function declarator
+create.cpp(47): error C3613: missing return type after '->' ('int' assumed)
+create.cpp(47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+create.cpp(47): error C2086: 'int ui': redefinition
+  create.cpp(43): note: see declaration of 'ui'
+create.cpp(47): error C2146: syntax error: missing ';' before identifier 'saveBtn'
+create.cpp(48): error C2059: syntax error: '}'
+create.cpp(48): error C2143: syntax error: missing ';' before '}'
+create.cpp(51): error C2143: syntax error: missing ';' before '{'
+create.cpp(51): error C2447: '{': missing function header (old-style formal list?)
+create.cpp(235): error C2001: newline in constant
+create.cpp(236): error C2146: syntax error: missing ')' before identifier 'basicCursor'
+create.cpp(238): error C2001: newline in constant
+create.cpp(239): error C2146: syntax error: missing ')' before identifier 'basicCursor'
+create.cpp(257): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(257): error C2059: syntax error: ')'
+create.cpp(260): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(260): error C2059: syntax error: ')'
+create.cpp(263): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(263): error C2059: syntax error: ')'
+create.cpp(266): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(266): error C2059: syntax error: ')'
+create.cpp(269): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(269): error C2059: syntax error: ')'
+create.cpp(272): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(272): error C2059: syntax error: ')'
+create.cpp(275): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(275): error C2059: syntax error: ')'
+create.cpp(278): error C3688: invalid literal suffix '鈻'; literal operator or literal operator template 'operator ""鈻' not found
+create.cpp(278): error C2059: syntax error: ')'
+create.cpp(281): error C2001: newline in constant
+create.cpp(283): error C2146: syntax error: missing ')' before identifier 'cursor'
+create.cpp(286): error C2001: newline in constant
+create.cpp(287): error C2146: syntax error: missing ')' before identifier 'cursor'
+create.cpp(292): error C2001: newline in constant
+create.cpp(293): error C2146: syntax error: missing ')' before identifier 'QTextImageFormat'
+create.cpp(294): error C2065: 'leftJPG': undeclared identifier
+create.cpp(294): error C2228: left of '.setWidth' must have class/struct/union
+  create.cpp(294): note: type is 'unknown-type'
+create.cpp(295): error C2065: 'leftJPG': undeclared identifier
+create.cpp(295): error C2228: left of '.setHeight' must have class/struct/union
+  create.cpp(295): note: type is 'unknown-type'
+create.cpp(296): error C2065: 'leftJPG': undeclared identifier
+create.cpp(296): error C2228: left of '.setName' must have class/struct/union
+  create.cpp(296): note: type is 'unknown-type'
+create.cpp(308): error C2065: 'leftJPG': undeclared identifier
+create.cpp(309): error C2001: newline in constant
+create.cpp(310): error C2146: syntax error: missing ')' before identifier 'leftCursor'
+create.cpp(360): error C2001: newline in constant
+create.cpp(361): error C2146: syntax error: missing ')' before identifier 'QTextImageFormat'
+create.cpp(362): error C2065: 'rightJPG': undeclared identifier
+create.cpp(362): error C2228: left of '.setWidth' must have class/struct/union
+  create.cpp(362): note: type is 'unknown-type'
+create.cpp(363): error C2065: 'rightJPG': undeclared identifier
+create.cpp(363): error C2228: left of '.setHeight' must have class/struct/union
+  create.cpp(363): note: type is 'unknown-type'
+create.cpp(364): error C2065: 'rightJPG': undeclared identifier
+create.cpp(364): error C2228: left of '.setName' must have class/struct/union
+  create.cpp(364): note: type is 'unknown-type'
+create.cpp(376): error C2065: 'rightJPG': undeclared identifier
+create.cpp(377): error C2001: newline in constant
+create.cpp(378): error C2146: syntax error: missing ')' before identifier 'rightCursor'
+create.cpp(459): error C2001: newline in constant
+create.cpp(460): error C2146: syntax error: missing ')' before identifier 'cursor'
+create.cpp(461): error C2001: newline in constant
+create.cpp(462): error C2146: syntax error: missing ')' before identifier 'cursor'
+create.cpp(467): error C2001: newline in constant
+create.cpp(468): error C2146: syntax error: missing ')' before identifier 'cursor'
+create.cpp(469): error C2001: newline in constant
+create.cpp(470): error C2146: syntax error: missing ')' before identifier 'cursor'
+create.cpp(609): error C2001: newline in constant
+create.cpp(610): error C2146: syntax error: missing ')' before identifier 'ui'
+create.cpp(626): error C2001: newline in constant
+create.cpp(627): error C2146: syntax error: missing ')' before identifier 'ui'
+  search.cpp
+search.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+search.cpp(25): error C2001: newline in constant
+search.cpp(26): error C2146: syntax error: missing ')' before identifier 'model'
+search.cpp(26): error C2143: syntax error: missing ')' before ';'
+  Generating Code...

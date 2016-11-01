@@ -20,7 +20,8 @@ static bool createConnection()
     if(!db.open()) return false;
     QSqlQuery query;
     query.prepare(QString(
-      "create table if not exists patient9 ("
+      "create table if not exists patient12 ("
+                      "id INTEGER PRIMARY KEY,"
               "fname vchar default '未填写姓',"
               "lname vchar default '未填写名',"
               "gender vchar default '未填写性别', "
@@ -85,7 +86,10 @@ static bool createConnection()
               "comment,"
               "reporter,"
               "date,"
-              "doc"
+              "doc,"
+                      "allergies,"
+                      "medicine,"
+                      "medicineTime"
               ")"
     ));
     qDebug() << "I'm creating a table";

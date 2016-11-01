@@ -27,6 +27,7 @@ void MainWindow::on_newBtn_clicked()
 {
     QDialog *mCreate = new Create();
     mCreate->setWindowFlags(Qt::Window);
+    mCreate->setAttribute(Qt::WA_DeleteOnClose);
     mCreate->show();
 }
 

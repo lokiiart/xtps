@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>727</width>
+    <width>924</width>
     <height>639</height>
    </rect>
   </property>
@@ -18,51 +18,25 @@
     <rect>
      <x>40</x>
      <y>110</y>
-     <width>641</width>
+     <width>851</width>
      <height>511</height>
     </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>20</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>根据病例号搜索</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="bedNum">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>50</x>
      <y>20</y>
      <width>113</width>
      <height>20</height>
     </rect>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>60</y>
-     <width>71</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>根据姓名搜索</string>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="username">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>50</x>
      <y>60</y>
      <width>113</width>
      <height>20</height>
@@ -72,27 +46,56 @@
   <widget class="QPushButton" name="numBtn">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>190</x>
      <y>20</y>
      <width>75</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>搜索</string>
+    <string>根据ID号搜索</string>
    </property>
   </widget>
   <widget class="QPushButton" name="nameBtn">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>190</x>
      <y>60</y>
      <width>75</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>搜索</string>
+    <string>根据姓名搜索</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showAll">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示全部病人</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteBtn">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>60</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除</string>
    </property>
   </widget>
  </widget>

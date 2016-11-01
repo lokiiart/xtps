@@ -19,6 +19,16 @@ public:
 private slots:
     void on_numBtn_clicked();
 
+    void on_nameBtn_clicked();
+
+    void on_showAll_clicked();
+
+    void on_tableView_clicked(const QModelIndex &index);
+
+    void on_deleteBtn_clicked();
+
+    void on_tableView_doubleClicked(const QModelIndex &index);
+
 private:
     Ui::Search *ui;
     QSqlTableModel *model;

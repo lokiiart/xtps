@@ -57,6 +57,8 @@ private slots:
 
     void on_bedNum_textEdited(const QString &arg1);
 
+    void on_ssaveBtn_clicked();
+
 private:
     Ui::Create *ui;
     QCamera *camera;

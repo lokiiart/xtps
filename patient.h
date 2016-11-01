@@ -78,7 +78,9 @@ public:
     QString doc;
     QString reporter;
     QString date;
-
+    QString allergies;
+    QString medicine;
+    QString medicineTime;
 
     void save();
 

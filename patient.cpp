@@ -15,7 +15,7 @@ Patient::~Patient()
 void Patient::save(){
     qDebug() << "Test:" << this->fName;
     QSqlQuery query;
-    query.prepare("insert into patient9 (fname,lname,gender, age, department, bedNum, zheng0, zheng1, zheng2, zheng3, zheng4, zheng5, zheng6, zheng7, year, leftJPG, rightJPG,"
+    query.prepare("insert into patient12 (id,fname,lname,gender, age, department, bedNum, zheng0, zheng1, zheng2, zheng3, zheng4, zheng5, zheng6, zheng7, year, leftJPG, rightJPG,"
                           "exp_0,"
                           "exp_1,"
                           "exp_2,"
@@ -63,9 +63,12 @@ void Patient::save(){
                           "comment,"
                           "reporter,"
                           "date,"
-                          "doc"
+                          "doc,"
+                      "allergies,"
+                      "medicine,"
+                      "medicineTime"
                           ")"
-                          " values (:fname,:lname,:gender, :age, :department, :bedNum, :zheng0, :zheng1, :zheng2, :zheng3, :zheng4, :zheng5, :zheng6, :zheng7, :year, :leftJPG, :rightJPG,"
+                          " values (NULL, :fname,:lname,:gender, :age, :department, :bedNum, :zheng0, :zheng1, :zheng2, :zheng3, :zheng4, :zheng5, :zheng6, :zheng7, :year, :leftJPG, :rightJPG,"
                           ":exp_0,"
                           ":exp_1,"
                           ":exp_2,"
@@ -113,7 +116,10 @@ void Patient::save(){
                           ":comment,"
                           ":reporter,"
                           ":date,"
-                  ":doc"
+                  ":doc,"
+                      ":allergies,"
+                      ":medicine,"
+                      ":medicineTime"
                           ")");
     query.bindValue(":fname", this->fName);
     query.bindValue(":lname", this->lName);
@@ -180,6 +186,9 @@ void Patient::save(){
     query.bindValue(":reporter", this->reporter);
     query.bindValue(":date", this->date);
     query.bindValue(":doc", this->doc);
+    query.bindValue(":allergies", this->allergies);
+    query.bindValue(":medicine", this->medicine);
+    query.bindValue(":medicineTime", this->medicineTime);
     if (!query.exec()) { // error
 //        QMessageBox::critical(this,
 //                              tr("Database error"),
